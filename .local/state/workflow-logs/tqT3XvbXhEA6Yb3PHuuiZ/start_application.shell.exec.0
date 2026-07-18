@@ -1,0 +1,62 @@
+[start.sh] Initializing MySQL data directory...
+2026-07-18T13:00:58.875884Z 0 [System] [MY-013169] [Server] /nix/store/s2lbn1axpc79kwnc829k5idkwabfq459-mysql-8.0.42/bin/mysqld (mysqld 8.0.42) initializing of server in progress as process 89
+2026-07-18T13:00:59.154604Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-07-18T13:01:00.616373Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-07-18T13:01:02.896624Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+[start.sh] Initialization done.
+[start.sh] Starting MySQL...
+[start.sh] Waiting for MySQL... (1/30)
+[start.sh] Waiting for MySQL... (2/30)
+[start.sh] Waiting for MySQL... (3/30)
+[start.sh] Waiting for MySQL... (4/30)
+[start.sh] Waiting for MySQL... (5/30)
+[start.sh] Waiting for MySQL... (6/30)
+[start.sh] Waiting for MySQL... (7/30)
+[start.sh] Waiting for MySQL... (8/30)
+[start.sh] Waiting for MySQL... (9/30)
+[start.sh] Waiting for MySQL... (10/30)
+[start.sh] Waiting for MySQL... (11/30)
+[start.sh] Waiting for MySQL... (12/30)
+[start.sh] Waiting for MySQL... (13/30)
+[start.sh] Waiting for MySQL... (14/30)
+[start.sh] Waiting for MySQL... (15/30)
+[start.sh] Waiting for MySQL... (16/30)
+[start.sh] Waiting for MySQL... (17/30)
+[start.sh] Waiting for MySQL... (18/30)
+[start.sh] Waiting for MySQL... (19/30)
+[start.sh] Waiting for MySQL... (20/30)
+[start.sh] Waiting for MySQL... (21/30)
+[start.sh] Waiting for MySQL... (22/30)
+[start.sh] Waiting for MySQL... (23/30)
+[start.sh] Waiting for MySQL... (24/30)
+[start.sh] Waiting for MySQL... (25/30)
+[start.sh] Waiting for MySQL... (26/30)
+[start.sh] Waiting for MySQL... (27/30)
+[start.sh] Waiting for MySQL... (28/30)
+[start.sh] Waiting for MySQL... (29/30)
+[start.sh] Waiting for MySQL... (30/30)
+[start.sh] Creating database and loading schema...
+[start.sh] Loading hostel_management_system_Application.sql...
+[start.sh] Loading hostel_management_system_Hostel_Manager.sql...
+[start.sh] Loading hostel_management_system_Hostel.sql...
+[start.sh] Loading hostel_management_system_Message.sql...
+[start.sh] Loading hostel_management_system_Room.sql...
+[start.sh] Loading hostel_management_system_Student.sql...
+[start.sh] Database setup complete.
+[start.sh] Starting PHP server on port 5000...
+[Sat Jul 18 13:01:41 2026] PHP 8.2.23 Development Server (http://0.0.0.0:5000) started
+[Sat Jul 18 13:01:45 2026] 127.0.0.1:44296 Accepted
+[Sat Jul 18 13:01:45 2026] 127.0.0.1:44296 [200]: GET /
+[Sat Jul 18 13:01:45 2026] 127.0.0.1:44296 Closing
+[Sat Jul 18 13:01:45 2026] 127.0.0.1:44312 Accepted
+[Sat Jul 18 13:01:45 2026] 127.0.0.1:44312 [200]: GET /web/css/style.css
+[Sat Jul 18 13:01:45 2026] 127.0.0.1:44312 Closing
+[Sat Jul 18 13:01:46 2026] 127.0.0.1:44318 Accepted
+[Sat Jul 18 13:01:46 2026] 127.0.0.1:44318 [200]: GET /web/css/fontawesome-all.css
+[Sat Jul 18 13:01:46 2026] 127.0.0.1:44318 Closing
+[Sat Jul 18 13:01:47 2026] 127.0.0.1:49000 Accepted
+[Sat Jul 18 13:01:47 2026] 127.0.0.1:49014 Accepted
+[Sat Jul 18 13:01:47 2026] 127.0.0.1:49000 [200]: GET /web/images/nitk_bg.jpg
+[Sat Jul 18 13:01:47 2026] 127.0.0.1:49014 [200]: GET /web/webfonts/fa-solid-900.woff2
+[Sat Jul 18 13:01:47 2026] 127.0.0.1:49000 Closing
+[Sat Jul 18 13:01:47 2026] 127.0.0.1:49014 Closing
