@@ -168,25 +168,7 @@ if (!isset($_SESSION['username'])) { header('Location: ../login-hostel_manager.p
 			</ul> <!-- .cd-radial-slider-navigation -->
 		</div> <!-- .cd-radial-slider-wrapper -->
 	</div>
-<!-- //banner -->
 
-<!-- about -->
-
-<!-- //about -->
-
-<!-- why choose us -->
-
-<!-- team -->
-
-<!-- //team -->
-
-<!-- Clients -->
-
-<!--// Clients -->
-
-<!-- latest news -->
-
-<!-- //latest news -->
 
 <!-- footer -->
 <footer class="py-5">
